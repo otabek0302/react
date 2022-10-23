@@ -1,0 +1,13 @@
+.room{
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.buttons{
+    margin-top: 20px;
+}

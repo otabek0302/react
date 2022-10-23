@@ -1,0 +1,38 @@
+.groupName{
+    width: 300px;
+    font-size: 22px;
+    color: var(--primary-color);
+    padding: 20px 10px;
+    border: none;
+    /* margin-left: 100px; */
+}
+.listDays{
+    margin: 15px;
+    font-size: 12px;
+    list-style: circle;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    /* align-self: flex-end; */
+}
+
+.price{
+    align-self: flex-end;
+    justify-self: flex-end;
+    height: 50px;
+    min-width: 100px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.listDays{
+    margin-left: 40px;
+}
+.li{
+    margin-bottom: 10px;
+}

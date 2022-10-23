@@ -1,0 +1,26 @@
+body.active-modal {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.modal{   
+    width: 989px;
+    height: 623px;
+}
+
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+    z-index: -1;
+}
+
+

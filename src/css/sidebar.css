@@ -1,0 +1,43 @@
+.sideBar{
+    width: 220px;
+    position: fixed;
+    border-right: 1px solid var(--secondary-color);
+    height: 100vw;
+    background: rgba(252, 252, 252, 0.5);
+}
+.navLink{
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 12px;
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    width: 140px;
+    height: 31px;
+    margin-left: 32px;
+}
+.logo{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 72px;
+    color: var(--primary-color);
+    margin-left: 38px;
+    margin-top: 40px;
+}
+
+.linkIcon{
+    width: 26px;
+    height: 36px;
+    /* margin-left: 30px; */
+    margin-right: 14px;
+}
+
+.active{
+    background-color: #FCFCFC;
+    color: var(--primary-color);
+    box-shadow: 0px 20px 50px rgba(191, 21, 108, 0.05);
+}

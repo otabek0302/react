@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+body{
+  background-color:#DFEAF4;
+}
+.bg{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}

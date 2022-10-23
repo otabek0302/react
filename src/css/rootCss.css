@@ -1,0 +1,113 @@
+:root{
+    --primary-color: #363B64;
+    --secondary-color: #A098AE;
+    --white-color: #fff;
+    --form-color-background: rgb(213, 213, 251);
+    --border-primary: 20px;
+    --shadow-box: 0px 20px 50px rgba(0, 0, 0, 0.15);;
+}
+
+.btn-form-primary{
+    color: #fff;
+    background-color: var(--primary-color);
+    width: 200px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+}
+.form{
+    min-height: 400px;
+    min-width: 393px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-primary);
+    box-shadow: var(--shadow-box);
+    background-color: var(--form-color-background);
+}
+.input{
+    width: 160px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 30px;
+    box-shadow: var(--shadow-box);
+}
+.border-radius{
+    border-radius: var(--border-primary);
+}
+
+.border-shadow{
+    box-shadow: var(--shadow-box);
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.welcome{
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.title{
+    display: flex;
+    /* width: 1330px; */
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #363b642a;
+}
+
+.titleName{
+    margin-left: 30px;
+    /* margin-top: 50px; */
+    color: var(--primary-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.titleUser{
+    /* margin-top: 50px; */
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    margin-left: 800px;
+}
+.titleUser p{
+    font-size: 18px;
+    color: var(--secondary-color);
+    /* align-self: flex-end; */
+}
+
+.logOut{
+    width: 50px;
+    height: 50px;
+    border-radius: 14px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    margin-right: 20px;
+}
+
+.buttonContainer{
+    display: flex;
+    align-items: center;
+}
+.margin{
+    margin-top: 50px;
+    margin-left: 30px;
+}
